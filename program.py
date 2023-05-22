@@ -10,7 +10,17 @@
 # 7. Use Python Function and appropriate Exeptions to capture errors during runtime.
 
 # PSEUDOCODE
+
+from user_interface import user_interface
+
+ui = user_interface()
+
+
 # Ask the user for two inputs
+# input 1
+num1 = ui.ask_input1()
+
+
 # Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication, Division)
 # Display the result
 # Ask the user to try again or not
