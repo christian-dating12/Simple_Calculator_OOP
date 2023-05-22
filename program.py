@@ -1,4 +1,4 @@
-# Christian M. Dating | BSCPE 1-5 | MINI CALCULATOR
+# Christian M. Dating | BSCPE 1-5 | MINI CALCULATOR - OOP
 
 # Create a Simple App Calculator | OOP
 # 1. The application will ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication, Division)
@@ -8,3 +8,11 @@
 # 5. If yes, repeat step 1
 # 6. If no, Display "Thank you!" and the program will exit.
 # 7. Use Python Function and appropriate Exeptions to capture errors during runtime.
+
+# PSEUDOCODE
+# Ask the user for two inputs
+# Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication, Division)
+# Display the result
+# Ask the user to try again or not
+# If yes, repeat step 1
+# If no, display "Thank you"
