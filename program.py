@@ -33,6 +33,8 @@ print("DIVISION")
 
 op = ui.input_op()
 
+===========================================
+
 # Display the result
 # Ask the user to try again or not
 # If yes, repeat step 1
