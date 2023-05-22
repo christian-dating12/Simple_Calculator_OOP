@@ -11,3 +11,7 @@ class Calculator:
     def multiply(self, num1, num2):
         prod = num1 * num2
         return prod
+    
+    def divide(self, num1, num2):
+        quot = num1 // num2
+        return quot
