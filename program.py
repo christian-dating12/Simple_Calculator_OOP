@@ -19,7 +19,8 @@ ui = user_interface()
 # Ask the user for two inputs
 # input 1
 num1 = ui.ask_input1()
-
+# input 2
+num2 = ui.ask_input2()
 
 # Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication, Division)
 # Display the result
