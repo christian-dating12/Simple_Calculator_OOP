@@ -23,6 +23,11 @@ num1 = ui.ask_input1()
 num2 = ui.ask_input2()
 
 # Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication, Division)
+# Math operations choices
+print("ADDITION")
+print("SUBTRACTION")
+print("MULTIPLICATION")
+print("DIVISION")
 # Display the result
 # Ask the user to try again or not
 # If yes, repeat step 1
