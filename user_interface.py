@@ -7,3 +7,7 @@ class user_interface:
     def ask_input2(self):
         num2 = float(input("Enter second number: "))
         return num2
+    
+    def input_op(self): 
+        op =  str(input("Chosen operation: "))
+        return op
