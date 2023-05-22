@@ -7,3 +7,7 @@ class Calculator:
     def subtract(self, num1, num2):
         diff = num1 - num2
         return diff
+    
+    def multiply(self, num1, num2):
+        prod = num1 * num2
+        return prod
