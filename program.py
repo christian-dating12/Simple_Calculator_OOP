@@ -40,7 +40,7 @@ if op == ("ADDITION"):
 
 elif op == ("SUBTRACTION"):
     diff = calcu.subtract(num1, num2)
-    
+    ui.display_diff(diff)
     
 elif op == ("MULTIPLICATION"):
     prod = calcu.multiply(num1, num2)
