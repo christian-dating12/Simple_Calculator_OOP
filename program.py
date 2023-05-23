@@ -17,6 +17,10 @@ from calculator import Calculator
 ui = user_interface()
 calcu = Calculator()
 
+print("\033[90m=" *100)
+print("\033[93m SIMPLE CALCULATOR \033[0m".center(105))
+print("\033[90m=" *100)
+
 while True:
 # Ask the user for two inputs
 # input 1
@@ -26,10 +30,16 @@ while True:
 
 # Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication, Division)
 # Math operations choices
-    print("ADDITION")
-    print("SUBTRACTION")
-    print("MULTIPLICATION")
-    print("DIVISION")
+    print("\033[90m=" *100)
+    print("\033[93mPlease choose from the following Math Operations:\033[0m".center(105))
+    print("\033[90m=" *100)
+
+    print("\033[94mADDITION\033[0m".center(105))
+    print("\033[94mSUBTRACTION\033[0m".center(105))
+    print("\033[94mMULTIPLICATION\033[0m".center(105))
+    print("\033[94mDIVISION\033[0m".center(105))
+
+    print("\033[90m=" *100)
 
 
     op = ui.input_op()
@@ -56,6 +66,8 @@ while True:
         else:
             print("\nInvalid. Please choose from the given operations above.")
 
+        print("\033[90m=" *100)
+
 # Ask the user to try again or not
         while True:
             again = ui.try_again()
@@ -65,10 +77,12 @@ while True:
             while True:
                 if again == "YES":
                     break
-                
+
 # If no, display "Thank you"
                 else:
-                    print("THANK YOU!")
+                    print("\033[90m=" *100)
+                    print("\033[93mTHANK YOU!\033[0m".center(105))
+                    print("\033[90m=" *100)
                     break
 
             if again == "YES":
