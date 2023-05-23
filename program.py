@@ -44,6 +44,7 @@ elif op == ("SUBTRACTION"):
     
 elif op == ("MULTIPLICATION"):
     prod = calcu.multiply(num1, num2)
+    ui.display_prod(prod)
 
 elif op == ("DIVISION"):
     quot = calcu.divide(num1, num2)
