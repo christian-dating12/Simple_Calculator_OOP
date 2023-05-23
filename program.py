@@ -33,12 +33,14 @@ print("DIVISION")
 
 op = ui.input_op()
 
+# Display the result
 if op == ("ADDITION"):
     sum = calcu.add(num1, num2)
-    
+    ui.display_sum(sum)
+
 elif op == ("SUBTRACTION"):
     diff = calcu.subtract(num1, num2)
-
+    
     
 elif op == ("MULTIPLICATION"):
     prod = calcu.multiply(num1, num2)
