@@ -21,7 +21,10 @@ class user_interface:
     def display_prod(self, prod):
         print ("Product = ", + prod())
 
-        
+    def display_quot(self, quot):
+        print ("Quotient = ", + quot())
+
+
 
 
     
