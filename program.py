@@ -48,6 +48,7 @@ elif op == ("MULTIPLICATION"):
 
 elif op == ("DIVISION"):
     quot = calcu.divide(num1, num2)
+    ui.display_quot(quot)
 
 else:
     print("\nInvalid. Please choose from the given operations above.")
