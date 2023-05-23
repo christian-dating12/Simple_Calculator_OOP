@@ -24,6 +24,9 @@ class user_interface:
     def display_quot(self, quot):
         print ("Quotient = ", + quot)
 
+    def try_again(self):
+        again = str(input("Do you want to try again (YES or NO) ? "))
+        return again
 
 
 
