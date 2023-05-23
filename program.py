@@ -33,21 +33,21 @@ print("DIVISION")
 
 op = ui.input_op()
 
-sum = calcu.add(num1, num2)
-diff = calcu.subtract(num1, num2)
-prod = calcu.multiply(num1, num2)
-quot = calcu.divide(num1, num2)
-
 if op == ("ADDITION"):
-    print (num1, "+", num2, "=", + sum())
+    sum = calcu.add(num1, num2)
+    
 elif op == ("SUBTRACTION"):
-    print (num1, "+", num2, "=", + diff())
+    diff = calcu.subtract(num1, num2)
+    
 elif op == ("MULTIPLICATION"):
-    print (num1, "+", num2, "=", + prod())
+    prod = calcu.multiply(num1, num2)
+
 elif op == ("DIVISION"):
-    print (num1, "+", num2, "=", + quot())
+    quot = calcu.divide(num1, num2)
+    
 else:
     print("\nInvalid. Please choose from the given operations above.")
+
 
 # Display the result
 # Ask the user to try again or not

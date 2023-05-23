@@ -15,5 +15,8 @@ class user_interface:
     def display_sum(self, sum):
         print ("Sum = ", + sum())
 
+    def display_diff(self, diff):
+        print ("Difference = ", + diff())
+
 
     
