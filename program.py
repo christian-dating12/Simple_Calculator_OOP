@@ -65,11 +65,19 @@ while True:
             while True:
                 if again == "YES":
                     break
+                
+# If no, display "Thank you"
+                else:
+                    print("THANK YOU!")
+                    break
 
-              
+            if again == "YES":
+                break
+                
+            elif again == "NO":
+                    exit()  
                         
     except ValueError:
         while True:
             print("Invalid input. Please try again.")
             break
-# If no, display "Thank you"
