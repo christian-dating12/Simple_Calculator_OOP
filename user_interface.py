@@ -18,5 +18,10 @@ class user_interface:
     def display_diff(self, diff):
         print ("Difference = ", + diff())
 
+    def display_prod(self, prod):
+        print ("Product = ", + prod())
+
+        
+
 
     
