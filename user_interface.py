@@ -12,17 +12,17 @@ class user_interface:
         op =  str(input("Chosen operation: "))
         return op
     
-    def display_sum(self, sum):
-        print ("Sum = ", + sum())
+    def display_sum(self, sum,):
+        print ("Sum = ", + sum)
 
     def display_diff(self, diff):
-        print ("Difference = ", + diff())
+        print ("Difference = ", + diff)
 
     def display_prod(self, prod):
-        print ("Product = ", + prod())
+        print ("Product = ", + prod)
 
     def display_quot(self, quot):
-        print ("Quotient = ", + quot())
+        print ("Quotient = ", + quot)
 
 
 

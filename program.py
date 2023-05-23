@@ -38,13 +38,14 @@ if op == ("ADDITION"):
     
 elif op == ("SUBTRACTION"):
     diff = calcu.subtract(num1, num2)
+
     
 elif op == ("MULTIPLICATION"):
     prod = calcu.multiply(num1, num2)
 
 elif op == ("DIVISION"):
     quot = calcu.divide(num1, num2)
-    
+
 else:
     print("\nInvalid. Please choose from the given operations above.")
 
