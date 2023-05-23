@@ -11,3 +11,9 @@ class user_interface:
     def input_op(self): 
         op =  str(input("Chosen operation: "))
         return op
+    
+    def display_sum(self, sum):
+        print ("Sum = ", + sum())
+
+
+    
