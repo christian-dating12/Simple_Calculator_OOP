@@ -17,6 +17,7 @@ from calculator_tian import CalculatorTian
 
 ui = user_interface()
 calcu = Calculator()
+tian = CalculatorTian()
 
 print("\033[90m=" *100)
 print("\033[93m SIMPLE CALCULATOR \033[0m".center(105))
