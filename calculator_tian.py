@@ -1,4 +1,4 @@
 from calculator import Calculator
 
-class CalculatorTian:
+class CalculatorTian(Calculator):
     pass
