@@ -13,6 +13,7 @@
 
 from user_interface import user_interface
 from calculator import Calculator
+from calculator_tian import CalculatorTian
 
 ui = user_interface()
 calcu = Calculator()
