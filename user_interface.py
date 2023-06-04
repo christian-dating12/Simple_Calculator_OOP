@@ -27,6 +27,9 @@ class user_interface:
     def try_again(self):
         again = str(input("\n\033[90mDo you want to try again (YES or NO) ? "))
         return again
+    
+    def display_remainder(self, remainder):
+        print ("\033[93mRemainder = ", + remainder)
 
 
 

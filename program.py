@@ -23,6 +23,8 @@ print("\033[90m=" *100)
 print("\033[93m SIMPLE CALCULATOR \033[0m".center(105))
 print("\033[90m=" *100)
 
+
+
 while True:
 # Ask the user for two inputs
 # input 1
@@ -40,11 +42,13 @@ while True:
     print("\033[94mSUBTRACTION\033[0m".center(105))
     print("\033[94mMULTIPLICATION\033[0m".center(105))
     print("\033[94mDIVISION\033[0m".center(105))
+    print("REMAINDER")
 
     print("\033[90m=" *100)
 
 
     op = ui.input_op()
+    remainder = tian.modulus(num1, num2)
 
 # Display the result
  
@@ -65,6 +69,10 @@ while True:
             quot = calcu.divide(num1, num2)
             ui.display_quot(quot)
 
+        elif op == ("REMAINDER"):
+            remainder = tian.modulus(num1, num2)
+            ui.display_remainder(remainder)
+    
         else:
             print("\nInvalid. Please choose from the given operations above.")
 
