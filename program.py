@@ -42,7 +42,7 @@ while True:
     print("\033[94mSUBTRACTION\033[0m".center(105))
     print("\033[94mMULTIPLICATION\033[0m".center(105))
     print("\033[94mDIVISION\033[0m".center(105))
-    print("REMAINDER")
+    print("\033[94mREMAINDER\033[0m".center(105))
 
     print("\033[90m=" *100)
 
